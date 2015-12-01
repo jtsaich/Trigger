@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc">
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:id="@+id/pauseButton"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/pause52"
+        android:contentDescription="@string/pause_content_desc"
+        android:onClick="pauseGame"/>
+</FrameLayout>

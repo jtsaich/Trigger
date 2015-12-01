@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trigger</string>
+    <string name="play_button">Play</string>
+
+    <string name="game_over">Game Over</string>
+    <string name="pause_content_desc">puase button</string>
+
+    <array
+        name="pause_menu_items">
+        <item>Resume</item>
+        <item>Restart</item>
+    </array>
+
+    <array
+        name="end_game_menu_items">
+        <item>Restart</item>
+        <item>Return to Home</item>
+    </array>
+
+</resources>
